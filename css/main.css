@@ -1,0 +1,369 @@
+/* * {
+    outline: 1px solid tomato;
+} */
+
+/* (header */
+
+.header h1 img {
+    font-size: 0;
+    vertical-align: middle;
+}
+
+.header .inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.header .gnb {
+    margin: 0 0 0 400px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.header .gnb>ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+/* (main */
+
+.mainVisual .mainSlide figure {
+    position: relative;
+    height: 700px;
+}
+
+.mainVisual .mainSlide .item1 {
+    background: url(../img/H.point_운영가이드_MB_메인KV_1.png) no-repeat center center/cover;
+}
+
+.mainVisual .mainSlide .item2 {
+    background: url(../img/H.point_운영가이드_MB_메인KV_2.png) no-repeat center center/cover;
+}
+
+.mainVisual .mainSlide .item3 {
+    background: url(../img/H.point_운영가이드_MB_메인KV_4.png) no-repeat center center/cover;
+}
+
+.mainVisual .mainSlide .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+}
+
+.mainVisual .mainSlide .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+
+    background: none;
+    border: none;
+
+    font-size: 0;
+
+    width: 100px;
+    height: 100px;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.mainVisual .mainSlide .slick-prev {
+    transform: translate(-50%, -50%) rotate(-45deg);
+    margin: 0 0 0 -700px;
+}
+
+.mainVisual .mainSlide .slick-next {
+    transform: translate(-50%, -50%) rotate(135deg);
+    margin: 0 0 0 700px;
+}
+
+.mainVisual .mainSlide .slick-dots {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.mainVisual .mainSlide .slick-dots>li {
+    display: inline-block;
+    width: 100px;
+    height: 4px;
+    background: #dbecf4;
+    margin: 0 2px;
+    border-radius: 2px;
+}
+
+.mainVisual .mainSlide .slick-dots>li.slick-active {
+    background: #1a4568;
+}
+
+.mainVisual .mainSlide .slick-dots>li button {
+    display: none;
+}
+
+.mainVisual .mainSlide h2 {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0 0 80px 0;
+    color: #fff;
+    line-height: 80px;
+}
+
+.mainVisual .mainSlide p {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    color: #fff;
+    line-height: 34px;
+}
+
+.mainVisual .mainSlide .inner a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* (mainContent  */
+
+.mainContent {
+    padding: 90px 0;
+    margin: 0 0 50px 0;
+    background: rgb(255, 255, 255);
+}
+
+.mainContent h2 {
+    position: relative;
+    width: 1200px;
+    font-size: 52px;
+    font-weight: 800;
+    color: #111;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.mainContent h3 {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 0 30px 0;
+    width: 1200px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+
+}
+
+.mainContent .inner {
+    display: flex;
+    width: 1200px;
+    gap: 30px;
+
+    margin: 0 auto;
+}
+
+.mainContent .inner figure {
+    flex: 1;
+    text-align: center;
+}
+
+.mainContent figure img {
+    width: 100%;
+    border-radius: 7%;
+}
+
+.mainContent .img_box {
+    position: relative;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    transform: translate(0, 0);
+}
+
+.mainContent .img_box:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+.mainContent strong {
+    display: block;
+    margin: 0 0 20px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.mainContent .inner p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #999;
+}
+
+
+
+
+/* mainProduct */
+
+.mainProduct {
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background: rgb(92, 205, 181)
+}
+
+.mainProduct h2 {
+    font-size: 52px;
+    font-weight: 800;
+    margin: 0 0 70px 0;
+    color: #fff;
+}
+
+.mainProduct img {
+    width: 100%;
+    border-radius: 7%;
+}
+
+.mainProduct figure {
+    padding: 0 15px 20px 15px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.mainProduct .inner {
+    width: 1200px;
+    margin: 0 auto;
+    /* outline: 1px solid tomato; */
+    overflow: hidden;
+}
+
+.mainProduct .main_pro_slide {
+    /* outline: 1px solid tomato; */
+    margin: 0 -15px;
+
+}
+
+.mainProduct .arrows a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 15px;
+    height: 28px;
+
+    font-size: 0;
+}
+
+.mainProduct .arrows .prev {
+    background: url(../img/ic_arrow4.png);
+    margin: 0 0 0 -700px;
+}
+
+.mainProduct .arrows .next {
+    background: url(../img/icnext.png);
+    margin: 0 0 0 700px;
+}
+
+.mainProduct .img_box {
+    margin: 0 0 15px 0;
+
+}
+
+.mainProduct .slick-dots {
+    margin: 20px 0 0 0;
+}
+
+.mainProduct .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.mainProduct .slick-dots li button {
+    width: 20px;
+    height: 20px;
+
+    border: none;
+    background: #4e2bf4;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+}
+
+
+
+/* (footer */
+
+.footer {
+    padding: 50px 0;
+    border-top: 1px solid#ddd;
+}
+
+.footer .inner {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.footer .list {
+    display: flex;
+    font-size: 16px;
+    width: 100%;
+    margin: 0 0 20px 50px;
+}
+
+.footer .list li {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer .list li~li::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #ddd;
+    margin: 0 10px;
+}
+
+.footer .list .bold {
+    font-weight: 500;
+}
+
+.footer .list2 {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.footer .list2 li~li::before {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background: #ddd;
+    margin: 0 10px;
+    border-radius: 50%;
+}
+
+address {
+    display: flex;
+    font-size: 12px;
+    color: rgb(179, 174, 174);
+}
