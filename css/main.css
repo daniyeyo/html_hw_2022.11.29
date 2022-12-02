@@ -226,10 +226,12 @@
 }
 
 .mainProduct h2 {
+    width: 1200px;
+    margin: 0 auto;
     font-size: 52px;
     font-weight: 800;
-    margin: 0 0 70px 0;
     color: #fff;
+    text-align: left;
 }
 
 .mainProduct img {
@@ -238,6 +240,7 @@
 }
 
 .mainProduct figure {
+    margin: 50px 0 0 0;
     padding: 0 15px 20px 15px;
     color: #fff;
     font-size: 24px;
@@ -253,7 +256,7 @@
 
 .mainProduct .main_pro_slide {
     /* outline: 1px solid tomato; */
-    margin: 0 -15px;
+    /* margin: 0 -15px; */
 
 }
 
@@ -298,7 +301,7 @@
     height: 20px;
 
     border: none;
-    background: #4e2bf4;
+    background: #6D67E4;
     color: #fff;
     font-size: 12px;
     border-radius: 50%;
@@ -324,7 +327,7 @@
     display: flex;
     font-size: 16px;
     width: 100%;
-    margin: 0 0 0 50px;
+    margin: 0 0 20px 50px;
 }
 
 .footer .list li {
@@ -345,6 +348,12 @@
     font-weight: 500;
 }
 
+.footer .list2 {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0 auto;
+    color: #333;
+}
 
 .footer .list2 li~li::before {
     content: '';
@@ -356,8 +365,8 @@
     border-radius: 50%;
 }
 
-footer .inner address {
-    display: inline-block;
+address {
+    display: flex;
     font-size: 12px;
     color: rgb(179, 174, 174);
 }
